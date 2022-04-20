@@ -120,3 +120,5 @@ AUTH_USER_MODEL = 'films.User'
 
 LOGIN_REDIRECT_URL = 'index'
 LOGOUT_REDIRECT_URL = 'index'
+
+LOGIN_URL = '/login/'
